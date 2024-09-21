@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin:0px;
+    text-decoration: none;
+    font-weight: bold;
+}
+body{
+    background-color: black;
+}
+form{   
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding:40px 30px 40px 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    border: dotted 2px ;
+    border-radius: 50%;
+    color: white;
+    font-family:serif;
+}
+.inside{
+    margin-top: 20px;
+}
+#text{
+  border-radius: 30px;
+  text-align: center;   
+}
+#pass{
+    border-radius:30px;
+    text-align: center;
+}
+#signup  button{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 2px;
+}
+#login{
+    font-weight: bolder;
+}
