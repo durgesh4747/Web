@@ -29,16 +29,18 @@ form{
 #text{
   border-radius: 30px;
   text-align: center;   
+  border-color: blue;
 }
 #pass{
     border-radius:30px;
     text-align: center;
+    border-color: blue;
 }
 #signup  button{
     border: 1px solid;
     border-radius: 10px;
     padding: 4px;
-
+    color:blue;
 }
 #login{
     font-weight: bolder;
