@@ -1,57 +1,58 @@
-*{
-    padding: 0px;
-    margin:0px;
-    text-decoration: none;
-    font-weight: bold;
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-body{
-    background-color: black;
+body {
+  background-color: black;
+  
 }
-form{  
-    margin-top: 50px; 
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding:40px 30px 40px 30px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    translate: -50% -50%;
-    border: dotted 2px ;
-    border-radius: 50%;
-    color: white;
-    font-family:serif;
+form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px 30px 40px 30px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  border: dotted 2px;
+  border-radius: 50%;
+  color: white;
+  font-family: serif;
 }
-.inside{
-    margin-top: 20px;
+.inside {
+  margin-top: 20px;
 }
-#text{
+#text {
   border-radius: 30px;
-  text-align: center;   
+  text-align: center;
   border-color: blue;
 }
-#pass{
-    border-radius:30px;
-    text-align: center;
-    border-color: blue;
+#pass {
+  border-radius: 30px;
+  text-align: center;
+  border-color: blue;
 }
-#signup  button{
-    border: 1px solid;
-    border-radius: 10px;
-    padding: 4px;
-    color:blue;
+#signup button {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 4px;
+  color: blue;
 }
-#login{
-    font-weight: bolder;
+#login {
+  font-weight: bolder;
 }
 #navbar {
-    background-color: rgb(23, 57, 170);
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-  }
-  #navbar a {
-    color: white;
-    font-weight: bold;
-  }
+  background-color: rgb(23, 57, 170);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#navbar a {
+  color: white;
+  font-weight: bold;
+}

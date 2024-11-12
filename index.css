@@ -14,10 +14,10 @@
   font-weight: bold;
 }
 #top_img {
-    padding: 40px;
-    text-align: center;
-    background-color: black;
-  }
+  padding: 40px;
+  text-align: center;
+  background-color: black;
+}
 #content {
   background-color: black;
   display: grid;
@@ -45,12 +45,12 @@
   margin-top: 2px;
   margin-bottom: 2px;
   font-size: 18px;
-  font-weight: bold;
+  font-weight:bold;
 }
-.rate{
-    font-size: 15px;
+.rate {
+  font-size: 15px;
 }
-.img_00{
+.img_00 {
   position: relative;
   bottom: 150px;
   padding: 10px;
