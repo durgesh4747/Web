@@ -3,8 +3,9 @@
   margin: 0px;
   text-decoration: none;
 }
+
 #navbar {
-  background-color: rgb(23, 57, 170);
+  background-color: black;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -19,7 +20,7 @@
   background-color: black;
 }
 #content {
-  background-color: black;
+  margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(4, 200px);
   justify-content: space-evenly;
@@ -27,18 +28,24 @@
 .movie {
   margin-top: 25px;
   text-align: center;
-  border: 2px solid rgb(207, 11, 11);
+  border: 2px solid black;
   border-radius: 25px;
   padding: 10px;
-  color: white;
+  color: black;
 }
 .movie button {
-  padding: 2px;
-  background-color: cyan;
-  border: solid 1px rgb(0, 0, 0);
+  padding: 4px;
+  background-color: rgb(203, 205, 209);
+  border: solid 1px rgb(173, 87, 87);
   margin-top: 5px;
   margin-bottom: 3px;
   font-weight: bold;
+}
+
+.movie button:hover {
+  cursor: pointer;
+  color:white;
+  background-color: black;
 }
 
 .name {

@@ -7,7 +7,7 @@ body {
   background-image: url(bg.jpeg);
 }
 #navbar {
-  background-color: rgb(23, 57, 170);
+  background-color: black;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -17,7 +17,6 @@ body {
   font-weight: bold;
 }
 #main {
-  background-color: rgba(0, 0, 0, 0.945);
   margin: 0px;
   padding: auto;
   display: grid;
@@ -38,21 +37,27 @@ body {
   margin-top: 10px;
 }
 button {
-  background-color: rgba(80, 173, 216, 0.822);
+  background-color: rgb(203, 205, 209);
   padding-top: 4px;
   padding-bottom: 7px;
   margin-top: 12px;
   margin-bottom: 30px;
   font-weight: bold;
 }
+
+button:hover{
+  background-color: black;  
+  color: white;
+  cursor: pointer;
+}
 .template {
   margin-top: 25px;
   margin-left: 20px;
   text-align: center;
-  border: 2px solid rgb(207, 11, 11);
+  border: 2px solid black;
   border-radius: 25px;
   padding: 10px;
-  color: white;
+  color: black;
 }
 img {
   margin-top: 10px;

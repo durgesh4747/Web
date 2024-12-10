@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: white;
   
 }
 form {
@@ -19,9 +19,9 @@ form {
   top: 50%;
   left: 50%;
   translate: -50% -50%;
-  border: dotted 2px;
+  border: dotted 4px;
   border-radius: 50%;
-  color: white;
+  color: black;
   font-family: serif;
 }
 .inside {
@@ -30,24 +30,35 @@ form {
 #text {
   border-radius: 30px;
   text-align: center;
-  border-color: blue;
+  border-color: black;
 }
 #pass {
   border-radius: 30px;
   text-align: center;
-  border-color: blue;
+  border-color: black;
 }
 #signup button {
   border: 1px solid;
   border-radius: 10px;
   padding: 4px;
-  color: blue;
+  color: black;
+  cursor: pointer;
+}
+input:hover{
+  height: 21px;
+}
+#signup button:hover {
+  background-color: black;
+  color: white;
+}
+.inside a:hover{
+  font-size: 18px;
 }
 #login {
   font-weight: bolder;
 }
 #navbar {
-  background-color: rgb(23, 57, 170);
+  background-color: black;
   padding: 20px;
   display: flex;
   justify-content: space-between;
