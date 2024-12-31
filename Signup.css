@@ -23,6 +23,11 @@ form {
   font-family: serif;
 }
 
+form h1:hover{
+  font-size: 37px;
+  cursor: pointer;
+}
+
 input:hover{
   height: 21px;
 }

@@ -24,6 +24,10 @@ form {
   color: black;
   font-family: serif;
 }
+form h1:hover{
+  font-size: 37px;
+  cursor: pointer;
+}
 .inside {
   margin-top: 20px;
 }

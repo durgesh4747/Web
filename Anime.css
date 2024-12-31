@@ -30,6 +30,10 @@ body {
   font-weight: bolder;
   margin-bottom: 1px;
 }
+.text:hover{
+  cursor: pointer;
+  font-size: 30px;
+}
 .rating {
   font-size: 14px;
   font-weight: bold;
@@ -38,11 +42,11 @@ body {
 }
 button {
   background-color: rgb(203, 205, 209);
-  padding-top: 4px;
-  padding-bottom: 7px;
   margin-top: 12px;
   margin-bottom: 30px;
   font-weight: bold;
+  padding: 5px;
+  border-radius: 20px;
 }
 button:hover{
   background-color: black;

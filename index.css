@@ -34,12 +34,13 @@
   color: black;
 }
 .movie button {
-  padding: 4px;
   background-color: rgb(203, 205, 209);
   border: solid 1px rgb(173, 87, 87);
   margin-top: 5px;
   margin-bottom: 3px;
   font-weight: bold;
+  padding: 5px;
+  border-radius: 20px;
 }
 
 .movie button:hover {
@@ -53,6 +54,10 @@
   margin-bottom: 2px;
   font-size: 18px;
   font-weight:bold;
+}
+.name:hover{
+  cursor: pointer;
+  font-size: 21px;
 }
 .rate {
   font-size: 15px;
